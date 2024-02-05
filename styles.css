@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: url("http://www.ivang-design.com/svg-load/parallax/parallax-0.png");
     background-color: black;
@@ -13,7 +12,6 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
 .container {
     display: flex;
     flex-direction: column;
@@ -22,44 +20,36 @@ body {
     border: 2px solid #4adf86;
     border-radius: 20px;
 }
-
 .profile {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-bottom: 0px;
     gap: 20px;
-}
-    
+}   
 .profile-pic {
   height:100px;
   width:100px;
   border: 1px solid #4adf86;
     border-radius: 50%;
 }
-
 .name {
     color: #4adf86;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-/*     margin-bottom: 20px; */
 }
-
 .under {
     border: 1px dashed #4adf86;
     width: 100%;
     margin-top: 20px;
 }
-
 .details {
     width: 100%;
 }
-
 .details-list {
     padding: 20px 0 0 0;
     color: #4adf86;
 }
-
 li {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -70,7 +60,6 @@ li::before {
     content: "\00BB";
     padding-right: 5px;
 }
-
 .contact img {
     width: 55px;
     height: 55px;
